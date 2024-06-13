@@ -5,6 +5,7 @@ const createAfile = (fileName, fileData) => {
   try {
     // Write your code here
   } catch (error) {
+    console.log(error);
     return {
       success: false,
       message: error.message||"File Creation Failed",

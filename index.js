@@ -10,56 +10,27 @@ const server = http.createServer((req, res) => {
   const parsedUrl = url.parse(req.url, true);
   // Get All Files
   if (parsedUrl.pathname === "/file" && req.method === "GET") {
-    // const response = getAllFiles();
-    // res.writeHead(200, { "Content-Type": "application/json" });
-    // return res.end(JSON.stringify(response));
+    // Write your code here
   }
 
   // Get A File
   if (parsedUrl.pathname.includes("file") && req.method === "GET") {
-    // const requestedFilename = parsedUrl.pathname.split("/")[2];
-    // const response = getAFile(requestedFilename);
-    // res.writeHead(200, { "Content-Type": "application/json" });
-    // return res.end(JSON.stringify(response));
+// Write your code here
   }
 
   // Creating A File
   if (parsedUrl.pathname.includes("file") && req.method === "POST") {
-    // const requestedFilename = parsedUrl.pathname.split("/")[2];
-    // let chunk = "";
-
-    // req.on("data", (data) => {
-    //   chunk += data;
-    // });
-    // req.on("end", () => {
-    //   const fileData = JSON.parse(chunk);
-    //   const response = createAfile(requestedFilename, fileData);
-    //   res.writeHead(200, { "Content-Type": "application/json" });
-    //   return res.end(JSON.stringify(response));
-    // });
+// Write your code here
   }
 
   // Updating A File
   if (parsedUrl.pathname.includes("file") && req.method === "PUT") {
-    // const requestedFilename = parsedUrl.pathname.split("/")[2];
-    // let chunk = "";
-    // req.on("data", (data) => {
-    //   chunk += data;
-    // });
-    // req.on("end", () => {
-    //   const fileData = JSON.parse(chunk);
-    //   const response = updateAfile(requestedFilename, fileData);
-    //   res.writeHead(200, { "Content-Type": "application/json" });
-    //   return res.end(JSON.stringify(response));
-    // });
+// Write your code here
   }
 
   // Deleting A File
   if (parsedUrl.pathname.includes("file") && req.method === "DELETE") {
-    // const requestedFilename = parsedUrl.pathname.split("/")[2];
-    // const response = deleteAFile(requestedFilename);
-    // res.writeHead(200, { "Content-Type": "application/json" });
-    // return res.end(JSON.stringify(response));
+// Write your code here
   }
 
   // A error page

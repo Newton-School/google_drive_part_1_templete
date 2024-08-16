@@ -1,9 +1,4 @@
-import express from 'express';
-import  createAfile from './tools/createAfile.js';
-import getAFile from './tools/getAFile.js';
-import getAllFiles from './tools/getAllFilename.js';
-import updateAfile from './tools/updateAfile.js';
-import deleteAFile from './tools/deleteAFile.js';
+const express = require("express");
 const app = express();
 const port = 8000;
 
